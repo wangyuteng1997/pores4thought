@@ -14,7 +14,7 @@ from torch.autograd import Variable
 import os
 import numpy as np
 from torchvision.utils import save_image
-from dcgan_test import Generator, weights_init
+from .dcgan_test import Generator, weights_init
 import torch.backends.cudnn as cudnn
 
 params = {

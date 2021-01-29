@@ -9,7 +9,7 @@ import numpy as np
 import argparse
 import os
 import tifffile  
-from two_point_correlation import two_point_correlation
+from .two_point_correlation import two_point_correlation
 import pandas as pd
 #from tqdm import tnrange
 

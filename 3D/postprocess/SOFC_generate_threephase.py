@@ -20,7 +20,8 @@ import torch.utils.data
 import os
 import numpy as np
 #import torch.distributions as td
-from dcgan_test import Generator
+from .dcgan_test import Generator
+
 import torch.backends.cudnn as cudnn
 
 params = {

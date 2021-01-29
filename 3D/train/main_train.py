@@ -14,11 +14,11 @@ import torch.backends.cudnn as cudnn
 import random
 import os
 import h5py
-from dataset_test import HDF5Dataset
+from .dataset_test import HDF5Dataset
 import torchvision.transforms as transforms
 #from hdf5_io import save_hdf5
 
-from dcgan_test import Generator, Discriminator
+from .dcgan_test import Generator, Discriminator
 #import numpy as np
 #np.random.seed(43)
 
